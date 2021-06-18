@@ -149,7 +149,5 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
   // controlServings();
-
-  console.log('added this line to test git, brance new-feature');
 };
 init();
