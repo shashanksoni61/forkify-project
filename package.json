@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Forkify",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html --no-cache",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Shashank Soni",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "core-js": "^3.14.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
